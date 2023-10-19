@@ -164,7 +164,7 @@ text-decoration:none;
 font-weight:bold;
 opacity:0.9;
 `,fh=P.h1`
-`,va=["CEO  Metaverse LCC","A creative person"],dh=[X1,q1,J1,Z1],ph=()=>{const[e,t]=Xe.useState(0);return Xe.useEffect(()=>{const n=()=>{t(e==0?1:0)};return setInterval(n,3e3),()=>{clearInterval(n,5e3)}}),y.jsxs(th,{id:"home",children:[y.jsx(nh,{src:K1}),y.jsx(rh,{children:y.jsxs(ih,{children:[y.jsxs(sh,{children:[y.jsx(ah,{children:dh.map(n=>{const r=n;return y.jsx(r,{})})}),y.jsx(fh,{children:"I am Abiola Onikoyi"}),y.jsx(lh,{children:va.map(n=>y.jsx(uh,{show:n===va[e],children:n}))}),y.jsx(ch,{href:"#services",children:y.jsx(b1,{})})]}),y.jsx(oh,{src:eh})]})})]})},hh="/assets/coding-7700b453.png",mh="/assets/designer-65eee3a3.png",gh="/assets/global-195d072e.png",vh="/assets/smartphone-711ba400.png",yh="/assets/responsive-ab8d267a.png",wh="/assets/bug-4f65a5dd.png",xh=[{name:"coding",icon:hh,text:"Turning concepts into reality with clean and efficient code expertise."},{name:"Responsive web Design",icon:yh,text:"Adaptive designs for all screens, ensuring a flawless user experience."},{name:"bug fixing",icon:wh,text:"We troubleshoot and fix glitches, ensuring smooth software performance."},{name:"designing",icon:mh,text:"Creating visuals that leave a lasting impression, defining your brand's identity."},{name:"Web development",icon:gh,text:"Transforming ideas into stunning, functional websites that drive your digital success."},{name:"mobile development",icon:vh,text:"Empowering businesses with innovative, user-centric mobile apps for Android and iOS."}],Sh=P.div`
+`,va=["CEO  Metaverse LCC","A creative person"],dh=[X1,q1,J1,Z1],ph=()=>{const[e,t]=Xe.useState(0);return Xe.useEffect(()=>{const n=()=>{t(e==0?1:0)},r=setInterval(n,3e3);return()=>{clearInterval(r),clearInterval(n,3e3)}}),y.jsxs(th,{id:"home",children:[y.jsx(nh,{src:K1}),y.jsx(rh,{children:y.jsxs(ih,{children:[y.jsxs(sh,{children:[y.jsx(ah,{children:dh.map(n=>{const r=n;return y.jsx(r,{})})}),y.jsx(fh,{children:"I am Abiola Onikoyi"}),y.jsx(lh,{children:va.map(n=>y.jsx(uh,{show:n===va[e],children:n}))}),y.jsx(ch,{href:"#services",children:y.jsx(b1,{})})]}),y.jsx(oh,{src:eh})]})})]})},hh="/assets/coding-7700b453.png",mh="/assets/designer-65eee3a3.png",gh="/assets/global-195d072e.png",vh="/assets/smartphone-711ba400.png",yh="/assets/responsive-ab8d267a.png",wh="/assets/bug-4f65a5dd.png",xh=[{name:"coding",icon:hh,text:"Turning concepts into reality with clean and efficient code expertise."},{name:"Responsive web Design",icon:yh,text:"Adaptive designs for all screens, ensuring a flawless user experience."},{name:"bug fixing",icon:wh,text:"We troubleshoot and fix glitches, ensuring smooth software performance."},{name:"designing",icon:mh,text:"Creating visuals that leave a lasting impression, defining your brand's identity."},{name:"Web development",icon:gh,text:"Transforming ideas into stunning, functional websites that drive your digital success."},{name:"mobile development",icon:vh,text:"Empowering businesses with innovative, user-centric mobile apps for Android and iOS."}],Sh=P.div`
 width:350px;
 height:350px;
 border-radius:15px;
@@ -432,7 +432,7 @@ margin-bottom:20px;
 
 `,Ko=P.input`
 width:100%;
-background:rgb(255,255,255,0.2);
+background:rgb(255,255,255,0.3);
 color:white;
 border:none;
 outline:none;
